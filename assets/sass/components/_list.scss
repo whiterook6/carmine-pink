@@ -19,13 +19,9 @@
 	}
 
 	ul {
-		list-style: disc;
+		list-style: disc outside;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1rem;
-
-		li {
-			padding-left: 0.5rem;
-		}
+		padding-left: 2rem;
 
 		&.alt {
 			list-style: none;
