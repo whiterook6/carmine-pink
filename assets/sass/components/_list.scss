@@ -132,7 +132,7 @@
 			}
 		}
 
-		&.contact-icons {
+		&.contact-icons, &.navigation {
 			list-style: none;
 			padding-left: 0;
 
@@ -195,6 +195,10 @@
 					}
 				}
 			}
+		}
+
+		&.contact-icons > li {
+			text-align: right;
 		}
 
 		&.grid-icons {
