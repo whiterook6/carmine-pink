@@ -37,8 +37,7 @@
 		white-space: nowrap;
 
 		&:hover {
-			box-shadow: inset 0 0 0 2px _palette(accent3);
-			color: _palette(accent3) !important;
+			box-shadow: inset 0 0 0 2px white;
 		}
 
 		&:active {

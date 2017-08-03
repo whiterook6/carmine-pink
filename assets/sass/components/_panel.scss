@@ -39,6 +39,11 @@
 			background-color: _palette(accent4);
 		}
 
+		&.color5 {
+			@include gradient-background;
+			background-color: _palette(accent5);
+		}
+
 		&.color1-alt {
 			@include gradient-background(false, $opacity);
 			background-color: desaturate(darken(_palette(accent1), $darken), $desaturate);
@@ -57,6 +62,11 @@
 		&.color4-alt {
 			@include gradient-background(false, $opacity);
 			background-color: desaturate(darken(_palette(accent4), $darken), $desaturate);
+		}
+
+		&.color5-alt {
+			@include gradient-background(false, $opacity);
+			background-color: desaturate(darken(_palette(accent5), $darken), $desaturate);
 		}
 	}
 
